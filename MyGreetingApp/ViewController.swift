@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var greetingLabel: UILabel!
     
-    private var viewModel: GreetingViewModelProtocol {
+    private var viewModel: GreetingViewModelProtocol! {
         didSet {
             viewModel.greetingDidChange = { [unowned self] viewModel in
                 greetingLabel.text = viewModel.greeting
