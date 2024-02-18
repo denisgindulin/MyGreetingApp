@@ -14,6 +14,7 @@
 		2219228C2B7FE23D007B0F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2219228B2B7FE23D007B0F41 /* Assets.xcassets */; };
 		2219228F2B7FE23D007B0F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2219228D2B7FE23D007B0F41 /* LaunchScreen.storyboard */; };
 		221922992B80F2AE007B0F41 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221922982B80F2AE007B0F41 /* Person.swift */; };
+		2219229F2B8218C1007B0F41 /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219229E2B8218C1007B0F41 /* GreetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2219228E2B7FE23D007B0F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221922902B7FE23D007B0F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221922982B80F2AE007B0F41 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2219229E2B8218C1007B0F41 /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				221922822B7FE23A007B0F41 /* AppDelegate.swift */,
 				221922842B7FE23A007B0F41 /* SceneDelegate.swift */,
 				221922862B7FE23A007B0F41 /* ViewController.swift */,
+				2219229E2B8218C1007B0F41 /* GreetingViewModel.swift */,
 				221922982B80F2AE007B0F41 /* Person.swift */,
 				221922882B7FE23A007B0F41 /* Main.storyboard */,
 				2219228B2B7FE23D007B0F41 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				221922872B7FE23A007B0F41 /* ViewController.swift in Sources */,
 				221922832B7FE23A007B0F41 /* AppDelegate.swift in Sources */,
+				2219229F2B8218C1007B0F41 /* GreetingViewModel.swift in Sources */,
 				221922992B80F2AE007B0F41 /* Person.swift in Sources */,
 				221922852B7FE23A007B0F41 /* SceneDelegate.swift in Sources */,
 			);
