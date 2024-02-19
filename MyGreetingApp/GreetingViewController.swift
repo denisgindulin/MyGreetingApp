@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GreetingViewController.swift
 //  MyGreetingApp
 //
 //  Created by Денис Гиндулин on 16.02.2024.
@@ -8,7 +8,7 @@
 import UIKit
 
 // это модуль View архитектурного паттерна MVVM (Model - View - View-Model)
-class ViewController: UIViewController {
+class GreetingViewController: UIViewController {
 
     @IBOutlet var greetingLabel: UILabel!
     
