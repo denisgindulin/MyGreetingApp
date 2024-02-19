@@ -31,6 +31,4 @@ class GreetingPresenter: GreetingPresenterProtocol {
         // обращаюсь к свойству view этого класса. У view тип протокола GreetingViewProtocol, который размещен в файле GreetingViewController и содержит метод setGreeting. Поэтому, если точнее, обращаюсь к методу setGreeting свойства view класса GreetingPresenter. У метода setGreeting есть параметр greeting. Передаю в него в качестве значения объект greeting (фразу приветствия), который создал в предыдущей строке.
         view.setGreeting(greeting)
     }
-    
-    
 }
