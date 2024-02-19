@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GreetingViewController.swift
 //  MyGreetingApp
 //
 //  Created by Денис Гиндулин on 16.02.2024.
@@ -8,7 +8,7 @@
 import UIKit
 
 // этот файл(класс) - это одновременно и View, и Controller в архитектурном паттерне MVC (Model-View-Controller). В MVC распределение модулей хромает: View и Controller очень неразрывно связаны друг с другом и роли между ними не разделены (явно отделена только Model - она в другом файле), тестируемость затруднительна, но код получился самым коротким
-class ViewController: UIViewController {
+class GreetingViewController: UIViewController {
 
     @IBOutlet var greetingLabel: UILabel!
     
