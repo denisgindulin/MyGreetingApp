@@ -43,7 +43,7 @@ class GreetingViewController: UIViewController {
 // это расширение класса GreetingViewController. В нем буду реализовывать метод setGreeting, потому что этого требует протокол GreetingViewProtocol, под который подписан данный класс. У метода есть параметр greeting.
 extension GreetingViewController: GreetingViewProtocol {
     func setGreeting(_ greeting: String) {
-        // передаю значение параметра greeting метода setGreeting в свойство text элемента интерфейса greetingLabel
+        // передаю значение параметра greeting метода setGreeting в свойство text элемента интерфейса greetingLabel. В этом проявляется шаблон "Скромный объект", характерный для архитектурного паттерна MVP, суть которого в том, что архитектурный модуль View - пассивный (он не готовит данные для отображения - он помещает в элемент интерфейса лейбл то, что передаст ему Presenter) 
         greetingLabel.text = greeting
     }
 }
