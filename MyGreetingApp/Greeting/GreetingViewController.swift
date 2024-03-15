@@ -23,7 +23,6 @@ class GreetingViewController: UIViewController {
     var presenter: GreetingViewOutputProtocol!
     
     private let configurator: GreetingConfiguratorInputProtocol = GreetingConfigurator()
-    private var person: Person!
     
     override func viewDidLoad() {
         super.viewDidLoad()
